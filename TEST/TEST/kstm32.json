@@ -1,0 +1,1 @@
+{"name":"TEST","type":"STM32F407xG","fromLibVer":1,"useLib":["stm32f4xx_gpio.c","stm32f4xx_rcc.c"]}
