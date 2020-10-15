@@ -1,0 +1,27 @@
+--cpu=Cortex-M4.fp
+"time_number\startup_stm32f407xx.o"
+"time_number\main.o"
+"time_number\gpio.o"
+"time_number\tim.o"
+"time_number\stm32f4xx_it.o"
+"time_number\stm32f4xx_hal_msp.o"
+"time_number\stm32f4xx_hal_tim.o"
+"time_number\stm32f4xx_hal_tim_ex.o"
+"time_number\stm32f4xx_hal_rcc.o"
+"time_number\stm32f4xx_hal_rcc_ex.o"
+"time_number\stm32f4xx_hal_flash.o"
+"time_number\stm32f4xx_hal_flash_ex.o"
+"time_number\stm32f4xx_hal_flash_ramfunc.o"
+"time_number\stm32f4xx_hal_gpio.o"
+"time_number\stm32f4xx_hal_dma_ex.o"
+"time_number\stm32f4xx_hal_dma.o"
+"time_number\stm32f4xx_hal_pwr.o"
+"time_number\stm32f4xx_hal_pwr_ex.o"
+"time_number\stm32f4xx_hal_cortex.o"
+"time_number\stm32f4xx_hal.o"
+"time_number\stm32f4xx_hal_exti.o"
+"time_number\system_stm32f4xx.o"
+--library_type=microlib --strict --scatter "TIME_number\TIME_number.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "TIME_number.map" -o TIME_number\TIME_number.axf
